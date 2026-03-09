@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Diplomas from './components/Diplomas';
 import E5 from './components/E5';
+import Entreprise from './components/Entreprise';
 import Contact from './components/Contact';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <About />
                     <Diplomas />
                     <Experience />
+                    <Entreprise />
                     <Projects />
                     <E5 />
                 </main>

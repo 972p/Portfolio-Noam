@@ -128,6 +128,13 @@ h6 {
     margin: 0 auto;
 }
 
+/* Base Mobile Responsive Changes */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 1rem;
+    }
+}
+
 .cyber-box {
     background: var(--surface-color);
     border: 1px solid var(--border-color);
@@ -573,6 +580,16 @@ nav {
     backdrop-filter: blur(5px);
     z-index: 100;
     padding-top: 1rem;
+    flex-wrap: wrap;
+    /* Allows wrap on mobile */
+}
+
+@media (max-width: 768px) {
+    nav {
+        justify-content: center;
+        gap: 0.5rem;
+        padding-bottom: 1rem;
+    }
 }
 
 nav a {
@@ -597,6 +614,13 @@ section {
     padding-top: 4rem;
     margin-bottom: 5rem;
     animation: fadeIn 1s ease-out;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
 
 @keyframes fadeIn {
