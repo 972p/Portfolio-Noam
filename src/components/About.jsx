@@ -4,7 +4,7 @@ function About() {
     return (
         <section id="about">
             <div className="cyber-header">
-                <h2 className="text-neon">&gt; WHOAMI</h2>
+                <h2 className="text-neon">&gt; QUI-JE-SUIS</h2>
             </div>
 
             <div className="terminal">

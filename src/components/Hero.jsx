@@ -10,7 +10,7 @@ function Hero() {
             <div className="glitch-wrapper mb-4">
                 <h1 className="glitch" data-text="MOUHOUBI Noam">MOUHOUBI Noam</h1>
             </div>
-            <h2 className="text-neon text-mono mb-4">&lt;Futur Expert Réseaux Infrastructures et Sécurité /&gt;</h2>
+            <h2 className="text-neon text-mono mb-4">&lt;Étudiant en BTS SIO SISR en alternance /&gt;</h2>
             <p className="text-secondary" style={{ maxWidth: '600px', fontSize: '1.1rem', marginBottom: '2rem' }}>
                 Système initialisé. Bienvenue sur mon portfolio interactif.
                 Accès autorisé aux données professionnelles et académiques.
