@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Briefcase, Wrench, Users, Cable, Settings, Globe, MonitorUp } from 'lucide-react';
+import { Building2, Briefcase, Wrench, Users, Cable, Settings, Globe, MonitorUp, Laptop, Ticket } from 'lucide-react';
 
 function Entreprise() {
     return (
@@ -32,75 +32,150 @@ function Entreprise() {
                 Mes missions :
             </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {/* Easyvista */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.3)] transition-all">
-                    <Wrench className="mb-4" color="#00ff41" size={40} />
-                    <h4 className="text-xl mb-4 text-[var(--neon-green)] font-medium">
-                        Support Utilisateur
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Maintenance et support utilisateur via Easyvista
-                    </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                {/* Support Utilisateur / Easyvista */}
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(0,255,65,0.3)] hover:shadow-[0_0_20px_rgba(0,255,65,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://static.wixstatic.com/media/8232bc_d1495aa22b9b4de68f49ae5f1b6f6b2b~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/easy%20vista.png" 
+                            alt="Easy Vista Dashboard" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(0,255,65,0.4)] shadow-[0_0_10px_rgba(0,255,65,0.2)] backdrop-blur-sm z-10">
+                            <Ticket color="#00ff41" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-[var(--neon-green)] font-medium">
+                            Support Utilisateur
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            Prise en charge et résolution des requêtes utilisateurs via l'outil de gestion de services IT <strong className="text-white font-medium">Easy Vista</strong>. Maintenance et assistance au quotidien.
+                        </p>
+                    </div>
                 </div>
 
-                {/* Préparation postes */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(0,170,255,0.3)] transition-all">
-                    <MonitorUp className="mb-4" color="#0ae" size={40} />
-                    <h4 className="text-xl mb-4 text-[var(--neon-blue)] font-medium">
-                        Préparation Postes
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Préparation de postes utilisateurs physique
-                    </p>
+                {/* Préparation Postes / Masterisation Levallois */}
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(255,0,60,0.3)] hover:shadow-[0_0_20px_rgba(255,0,60,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://static.wixstatic.com/media/8232bc_15d966a62850481fbc553a89afa70e98~mv2.png/v1/fill/w_800,h_450,al_c,q_85,enc_avif,quality_auto/banc%20.png" 
+                            alt="Masterisation Levallois" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(255,0,60,0.4)] shadow-[0_0_10px_rgba(255,0,60,0.2)] backdrop-blur-sm z-10">
+                            <MonitorUp color="#ff003c" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-[var(--neon-pink)] font-medium">
+                            Préparation Postes
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            Préparation et configuration complète des postes informatiques physiques directement sur le <strong className="text-white font-medium">banc d'installation (Levallois)</strong> pour les utilisateurs locaux.
+                        </p>
+                    </div>
                 </div>
 
-                {/* Gestion Parc */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(255,0,60,0.3)] transition-all">
-                    <Building2 className="mb-4" color="#ff003c" size={40} />
-                    <h4 className="text-xl mb-4 text-[var(--neon-pink)] font-medium">
-                        Gestion de Parc
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Gestion de parc informatique
-                    </p>
+                {/* Gestion de Parc / Workstation */}
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(0,170,255,0.3)] hover:shadow-[0_0_20px_rgba(0,170,255,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://static.wixstatic.com/media/8232bc_f140d84a34f348469de3659bd0442417~mv2.png/v1/fill/w_800,h_450,al_c,q_85,enc_avif,quality_auto/workstation.png" 
+                            alt="Workstation" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(0,170,255,0.4)] shadow-[0_0_10px_rgba(0,170,255,0.2)] backdrop-blur-sm z-10">
+                            <Laptop color="#0ae" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-[var(--neon-blue)] font-medium">
+                            Gestion de Parc
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            Gestion de l'inventaire des laptops de l'entreprise via l'outil <strong className="text-white font-medium">Workstation</strong> pour un suivi précis de tous les équipements matériels.
+                        </p>
+                    </div>
                 </div>
 
-                {/* Migration W11 */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(255,189,46,0.3)] transition-all">
-                    <Settings className="mb-4" color="#ffbd2e" size={40} />
-                    <h4 className="text-xl mb-4 text-[#ffbd2e] font-medium">
-                        Migration OS
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Migration Windows 11 de tous les postes utilisateurs
-                    </p>
+                {/* Migration W11 / Masterisation Londres */}
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(255,189,46,0.3)] hover:shadow-[0_0_20px_rgba(255,189,46,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://static.wixstatic.com/media/8232bc_2e254671ca9d4194b42b1a3f107df831~mv2.png/v1/fill/w_800,h_450,al_c,q_85,enc_avif,quality_auto/serveur%20.png" 
+                            alt="Masterisation Londres et Migration" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(255,189,46,0.4)] shadow-[0_0_10px_rgba(255,189,46,0.2)] backdrop-blur-sm z-10">
+                            <Settings color="#ffbd2e" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-[#ffbd2e] font-medium">
+                            Masterisation sur le site de Londres
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            <strong className="text-white font-medium">Migration Windows 11</strong> des postes utilisateurs. Préparation massive de postes pour le site international <strong className="text-white font-medium">(Londres)</strong>.
+                        </p>
+                    </div>
                 </div>
 
                 {/* Refonte Réseau */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(157,0,255,0.3)] transition-all">
-                    <Globe className="mb-4" color="#9d00ff" size={40} />
-                    <h4 className="text-xl mb-4 text-purple-400 font-medium">
-                        Refonte Réseau
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Refonte complète du réseau internet
-                    </p>
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(157,0,255,0.3)] hover:shadow-[0_0_20px_rgba(157,0,255,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800" 
+                            alt="Refonte Réseau" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(157,0,255,0.4)] shadow-[0_0_10px_rgba(157,0,255,0.2)] backdrop-blur-sm z-10">
+                            <Globe color="#9d00ff" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-purple-400 font-medium">
+                            Refonte Réseau
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            Refonte complète et modernisation de l'infrastructure du réseau internet interne de l'entreprise.
+                        </p>
+                    </div>
                 </div>
 
                 {/* Brassage */}
-                <div className="cyber-box flex flex-col items-center text-center hover:shadow-[0_0_20px_rgba(0,255,255,0.3)] transition-all">
-                    <Cable className="mb-4" color="#00ffff" size={40} />
-                    <h4 className="text-xl mb-4 text-cyan-400 font-medium">
-                        Brassage
-                    </h4>
-                    <p className="text-secondary mb-6 flex-grow">
-                        Brassage de câbles réseaux
-                    </p>
+                <div className="cyber-box p-0 overflow-hidden flex flex-col border border-[rgba(0,255,255,0.3)] hover:shadow-[0_0_20px_rgba(0,255,255,0.3)] transition-all group">
+                    <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
+                        <img 
+                            src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800" 
+                            alt="Brassage" 
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70 filter brightness-[0.8] contrast-[1.2] hue-rotate-[180deg]"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 bg-[#0a0a0a]/90 p-2.5 rounded-lg border border-[rgba(0,255,255,0.4)] shadow-[0_0_10px_rgba(0,255,255,0.2)] backdrop-blur-sm z-10">
+                            <Cable color="#00ffff" size={26} />
+                        </div>
+                    </div>
+                    <div className="p-6 flex flex-col flex-grow text-left relative z-10 bg-gradient-to-b from-[#0a0a0a] to-transparent">
+                        <h4 className="text-xl mb-3 text-cyan-400 font-medium">
+                            Brassage Câblages
+                        </h4>
+                        <p className="text-secondary flex-grow leading-relaxed">
+                            Interventions physiques dans les baies serveurs pour le brassage de câbles réseaux et l'optimisation des flux de données.
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </section>
     );
 }
 
 export default Entreprise;
+

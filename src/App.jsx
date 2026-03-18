@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Diplomas from './components/Diplomas';
 import E5 from './components/E5';
 import Entreprise from './components/Entreprise';
-import PreparationPoste from './components/PreparationPoste';
+import Veille from './components/Veille';
 import Contact from './components/Contact';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
                     <Diplomas />
                     <Experience />
                     <Entreprise />
-                    <PreparationPoste />
+                    <Veille />
                     <Projects />
                     <E5 />
                 </main>
