@@ -21,8 +21,8 @@ function App() {
                     <Diplomas />
                     <Experience />
                     <Entreprise />
-                    <Veille />
                     <Projects />
+                    <Veille />
                     <E5 />
                 </main>
                 <Contact />
