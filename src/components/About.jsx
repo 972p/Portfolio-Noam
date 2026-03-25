@@ -16,7 +16,7 @@ function About() {
                 <div className="terminal-body">
                     <span className="terminal-command">cat about_me.txt</span>
                     <div className="terminal-output">
-                        Étudiant depuis 6 mois à l'école H3 HITEMA (75), je suis actuellement en première année de BTS SIO (Services Informatiques aux Organisations), spécialité SISR (Solutions d'Infrastructure, Systèmes et Réseaux). Passionné par l'informatique et toujours curieux des évolutions technologiques, j'ai naturellement choisi cette voie après avoir obtenu mon Bac Général avec mention Assez Bien en 2022.
+                        Étudiant depuis bientôt 2 ans à l'école H3 HITEMA (75), je suis actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations), spécialité SISR (Solutions d'Infrastructure, Systèmes et Réseaux). Passionné par l'informatique et toujours curieux des évolutions technologiques, j'ai naturellement choisi cette voie après avoir obtenu mon Bac Général avec mention Assez Bien en 2022.
                     </div>
 
                     <span className="terminal-command">cat professional_project.txt</span>
