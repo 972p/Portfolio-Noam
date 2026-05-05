@@ -1,4 +1,5 @@
 import React from 'react';
+import { ExternalLink } from 'lucide-react';
 
 function Experience() {
     return (
@@ -21,7 +22,41 @@ function Experience() {
                     <div className="timeline-content">
                         <h3 className="text-neon mb-1">2024 - À ce jour</h3>
                         <h4 className="mb-1">BTS SIO - OPTION SISR</h4>
-                        <p className="text-secondary" style={{ fontSize: '0.9rem' }}>H3 HITEMA - PARIS (75)</p>
+                        <p className="text-secondary mb-2" style={{ fontSize: '0.9rem' }}>H3 HITEMA - PARIS (75)</p>
+                        
+                        <div style={{ fontSize: '0.85rem', color: 'var(--text-primary)' }}>
+                            <p className="mb-2 highlight">Option SISR : Solutions d'Infrastructures, Systèmes et Réseaux.</p>
+                            <ul className="cyber-list mb-4">
+                                <li>Administration Windows Serveur</li>
+                                <li>Administration Linux</li>
+                                <li>Administration PFSENSE</li>
+                                <li>Création d'infrastructures réseau</li>
+                                <li>Virtualisation</li>
+                                <li>Mise en place de services système</li>
+                            </ul>
+                            
+                            <a 
+                                href="https://www.onisep.fr/ressources/structures-enseignement/ile-de-france/paris/h3-hitema" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="cyber-button-small"
+                                style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '0.5rem',
+                                    background: 'rgba(0, 170, 238, 0.2)',
+                                    border: '1px solid var(--cyber-blue)',
+                                    padding: '0.4rem 0.8rem',
+                                    borderRadius: '4px',
+                                    color: 'var(--cyber-blue)',
+                                    transition: 'all 0.3s ease',
+                                    marginTop: '0.5rem'
+                                }}
+                            >
+                                <ExternalLink size={14} />
+                                En savoir plus (Onisep)
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -47,3 +82,4 @@ function Experience() {
 }
 
 export default Experience;
+
