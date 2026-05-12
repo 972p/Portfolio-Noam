@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Diplomas from './components/Diplomas';
 import E5 from './components/E5';
+import E6 from './components/E6';
 import Entreprise from './components/Entreprise';
 import Veille from './components/Veille';
 import Contact from './components/Contact';
@@ -22,8 +23,9 @@ function App() {
                     <Experience />
                     <Entreprise />
                     <Projects />
-                    <Veille />
                     <E5 />
+                    <E6 />
+                    <Veille />
                 </main>
                 <Contact />
             </div>
