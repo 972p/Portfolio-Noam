@@ -3,11 +3,11 @@ import React from 'react';
 function Navbar() {
     return (
         <nav>
-            <a href="#about">ABOUT</a>
-            <a href="#diplomas">DIPLOMAS</a>
-            <a href="#experience">EXPERIENCE</a>
-            <a href="#entreprise">COMPANY</a>
-            <a href="#projects">PROJECTS</a>
+            <a href="#about">À PROPOS</a>
+            <a href="#diplomas">DIPLÔMES</a>
+            <a href="#experience">EXPÉRIENCES</a>
+            <a href="#entreprise">ENTREPRISE</a>
+            <a href="#projects">PROJETS</a>
             <a href="#e5">E5</a>
             <a href="#e6">E6</a>
             <a href="#veille">VEILLE</a>

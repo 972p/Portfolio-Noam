@@ -13,7 +13,7 @@ function Entreprise() {
 
             <div className="cyber-box mb-12">
                 <p className="text-secondary text-lg leading-relaxed mb-6">
-                    Ayming accompagne les start-up, PME, ETI et grandes entreprises en stratégie, management et financement de l'innovation. Créé en 1986 d'abord sous le nom de Alma.
+                    Ayming est un groupe international de conseil en performance des entreprises comptant 1300 employés dont 100 à la DSI avec pour chiffre d'affaires annuel environ 180M€.
                 </p>
                 <h3 className="text-xl text-[var(--neon-green)] mb-4 font-semibold border-b border-[var(--glass-border)] pb-2 flex items-center gap-2">
                     Les sites Ayming en France et partout dans le monde
@@ -39,7 +39,7 @@ function Entreprise() {
                     <div className="relative h-48 w-full overflow-hidden bg-[#050505]">
                         <img 
                             src="https://static.wixstatic.com/media/8232bc_d1495aa22b9b4de68f49ae5f1b6f6b2b~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/easy%20vista.png" 
-                            alt="Easy Vista Dashboard" 
+                            alt="Tableau de bord Easy Vista" 
                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
@@ -98,7 +98,7 @@ function Entreprise() {
                             Gestion de Parc
                         </h4>
                         <p className="text-secondary flex-grow leading-relaxed">
-                            Gestion de l'inventaire des laptops de l'entreprise via l'outil <strong className="text-white font-medium">Workstation</strong> pour un suivi précis de tous les équipements matériels.
+                            Gestion de l'inventaire des ordinateurs portables de l'entreprise via l'outil <strong className="text-white font-medium">Workstation</strong> pour un suivi précis de tous les équipements matériels.
                         </p>
                     </div>
                 </div>

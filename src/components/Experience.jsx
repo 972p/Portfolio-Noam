@@ -5,7 +5,7 @@ function Experience() {
     return (
         <section id="experience">
             <div className="cyber-header">
-                <h2 className="text-neon">&gt; TIMELINE LOGS</h2>
+                <h2 className="text-neon">&gt; LOGS_HISTORIQUE</h2>
             </div>
 
             <div className="timeline">

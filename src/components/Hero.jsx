@@ -46,7 +46,7 @@ function Hero() {
                     }}
                 >
                     <Download size={20} />
-                    <span>&gt; DOWNLOAD_CV</span>
+                    <span>&gt; TÉLÉCHARGER_CV</span>
                 </a>
             </div>
         </section>
